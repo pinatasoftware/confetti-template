@@ -1,0 +1,8 @@
+name = "confetti-template"
+type = "rust"
+account_id = "ddc8aa63ecce127262741306cc722d53"
+workers_dev = false
+routes = [
+    "*www.pinatasoftware.dev/*",
+]
+zone_id = ""
