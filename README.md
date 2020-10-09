@@ -22,7 +22,7 @@ publishing the resulting worker to Cloudflare's worker infrastructure.
 [Learn more about `wrangler generate` here.](https://github.com/cloudflare/wrangler)
 
 ```
-wrangler generate wasm-worker  https://github.com/cloudflare/rustwasm-worker-template.git
+wrangler generate wasm-worker https://github.com/pinatasoftware/confetti-template.git
 cd wasm-worker
 ```
 
