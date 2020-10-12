@@ -24,6 +24,8 @@ checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 [[package]]
 name = "confetti"
 version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "82a5d90d01fa14d5a975b36854ad4e624276831f947f828886b9375baadda32a"
 dependencies = [
  "futures 0.3.6",
  "js-sys",

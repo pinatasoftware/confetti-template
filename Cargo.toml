@@ -12,7 +12,7 @@ default = ["console_error_panic_hook"]
 
 [dependencies]
 cfg-if = "0.1.2"
-confetti = { path = "../confetti"}
+confetti = "0.1.1"
 serde = "1.0.116"
 serde_derive = "1.0.116"
 wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
