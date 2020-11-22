@@ -1,4 +1,4 @@
-use confetti::{Method, Middleware, Route};
+use confetti::{Method, Route};
 
 use crate::middleware::*;
 
@@ -6,11 +6,11 @@ pub fn routes() -> Vec<Route> {
     return vec![
         Route {
             pattern: (Method::Get, "/"),
-            middlewares: vec![Middleware::new(hello)],
+            middlewares: vec![hello],
         },
         Route {
             pattern: (Method::Get, "/hello/json"),
-            middlewares: vec![Middleware::new(data)],
+            middlewares: vec![data],
         },
     ];
 }
