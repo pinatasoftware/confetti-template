@@ -2,7 +2,5 @@ name = "confetti-template"
 type = "rust"
 account_id = ""
 workers_dev = false
-routes = [
-    "*www.pinatasoftware.dev/*",
-]
+route = ""
 zone_id = ""

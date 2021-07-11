@@ -22,10 +22,11 @@ async function handleRequest(request) {
     headers[key] = request.headers.get(key);
   }
 
-  var cf = {};
+  let cf = {};
   if (request.cf !== undefined) {
-    for (var key of request.cf.keys()) {
-      cf[key] = request.cf.get(key);
+    for (let key in request.cf) {
+      // confetti seems to treat cf as a HashMap<String, String>, even though it has nested objects
+      cf[key] = JSON.stringify(request.cf[key]);
     }
   }
 
